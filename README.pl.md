@@ -42,12 +42,12 @@ Uwaga: Flashujesz urządzenie na własną odpowiedzialność licząc się z utra
 Odsyłam do poradników dotyczących integracji ESPHome w Home Assistant.
 W wielkim skrócie w HA należy wykonać następujace czynności.
 * wygenerować nowe urządzenie EspHome (o nazwie nie zawierajacej znaków specjalnych)  
-* w pliku garagedoor.yaml wpisać tę samą "name" w sekcji "esphome"
+* w pliku **garagedoor.yaml** wpisać tę samą "name" w sekcji "esphome"
 * w sekcji "substitutions" można wprowadzić bardziej przyjazne "devicename"
 * zalecam ustawić unikalne "password" w sekcji "ota" 
 * sprawdzić konfigurację pozostałych haseł 
 * zdecydować się czy użyć HA API czy MQTT (jak Tasmota), czy obu
-* skopiować konfigurację  do Home Assistanta 
+* skopiować konfigurację **garagedoor.yaml** do Home Assistanta w miejsce wygenerowanej wcześniej
 * podłączyć konwerter do portu usb serwera Home Assistant i wykonać instalację
 * odłączyć konwerter i podłączyć zasilanie modułu
 * urządzenie powinno połączyć się z siecią WiFi, ewentualnie uruchomi się w trybie access pointa w celu skonfigurowania sieci

@@ -42,12 +42,12 @@ Below is a view of the board with the correct pinout of the ESP8285 module.
 There are many guides about ESPHome integration with Home Assistant.
 In short in HA you need to do the following:
 * create new EspHome device (with **name** that does not contain special characters)
-* in the garagedoor.yaml file enter the same **name** in "esphome" section
+* in the **garagedoor.yaml** file enter the same **name** in "esphome" section
 * in the "substitutions" section you can enter a more friendly **devicename**
 * I recommend setting a unique **password** in the "ota" section. 
 * check the other passwords
 * decide whether to use HA API or MQTT (like Tasmota) or both
-* copy the configuration to Home Assistant in place of the generated one
+* copy the **garagedoor.yaml** configuration file to Home Assistant in place of the generated one
 * connect the converter to the Home Assistant server's usb port and install the software
 * disconnect the converter and connect the module power supply, 
 * the device should connect to the WiFi network, or it will start in access point mode to configure the network
